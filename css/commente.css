@@ -1,0 +1,46 @@
+.commentebloc
+{
+    position: relative;
+    overflow-y: scroll;
+    height: 80vh;
+    width: 100%;
+}
+.commenter
+{
+    position: relative;
+    border: 1px solid rgb(63, 63, 63);
+    padding: 2%;
+    margin: auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.356);
+}
+.titrecom
+{
+    position: relative;
+    color: black;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.commentercom
+{
+    position: relative;
+    color: black;
+    width: 100%;
+}
+.num
+{
+    position: relative;
+    width: 10%;
+}
+.imgc
+{
+    position: relative;
+    width: 100%;
+}
+.titrecomment
+{
+    position: relative;
+    font-weight: bold;
+    color:black;
+    width: 100%;
+}

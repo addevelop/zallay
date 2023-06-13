@@ -1,0 +1,26 @@
+footer{
+    position: relative;
+    flex-direction :column;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    background: radial-gradient(#222, #000); 
+    height: 15vh;
+    text-align: center;
+
+}
+.colorses
+{
+    position: relative;
+    font-size: 1rem;
+    color: white;
+}
+
+.blocnet
+{
+    position: relative;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+}

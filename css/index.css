@@ -1,0 +1,153 @@
+:root
+{
+    --whit: white;
+    --dor: #b99e01;
+    --blk: black;
+}
+.imgbac
+{
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+body
+{
+    position: relative;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: black !important;
+    margin: 0;
+}
+.blocele
+{
+    position: relative;
+    padding: 0% 0% 1% 0%;
+    line-height: 2.8rem;
+    font-size: 1.6rem;
+    word-spacing: 0.2rem;
+    box-shadow: 0px 0px 10px var(--blk);
+    border-radius: 10px;
+    margin: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../images/fondcd.png');
+    font-family: 'Merriweathersans';
+    color: var(--whit);
+    height: auto;
+    width: 90%;
+}
+.blocint
+{
+    position: relative;
+    width: 100%;
+}
+.center
+{
+    text-align: center;
+}
+.textrg
+{
+    position: relative;
+    left: 50%;
+    width: 50%;
+}
+.textlt
+{
+    position: relative;
+    width: 50%;
+    left: 0;
+
+}
+.t_ele
+{
+    padding: 2%;
+}
+.blocimage
+{
+    position: relative;
+    width: 100%;
+}
+.img
+{
+    position: relative;
+    width: 100%;
+
+}
+.imgs
+{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.blocimgs
+{
+    position: relative;
+    padding: 2% 0%;
+    color: var(--blk);
+    background-size: cover;
+    background-image: url('../images/f2.png');
+    width: 100%;
+}
+.underligne
+{
+    position: relative;
+    margin: 1% auto 1% auto;
+    background-color: white;
+    width: 90%;
+    height: 2px;
+}
+.descript
+{
+    position: relative;
+    text-align: justify;
+    border-radius: 10px;
+
+}
+.imgbacf
+{
+    position: fixed;
+    overflow-x: hidden;
+    width: auto;
+    height: 100vh;
+}
+#imt
+{
+        transition-duration: 1s;
+}
+.ims
+{
+    position: relative;
+    overflow: hidden;
+}
+.titleim
+{
+    position: relative;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: var(--dor);
+    font-size: 2rem;
+    width: 100%;
+}
+#logsid
+{
+    position: relative;
+    margin-top: 1%;
+    padding: 2%;
+    width: 15%;
+}
+.row
+{
+    justify-content: center;
+    align-items: center;
+}

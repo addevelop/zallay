@@ -1,0 +1,63 @@
+:root
+{
+    --whit: white;
+    --dor: #BE8431;
+    --blk: rgb(36, 36, 36);
+}
+@font-face
+{
+    font-family: 'Merriweathersans';
+    src: url('../font/AlegreyaSans-Regular.ttf') format('truetype');
+}
+header
+{
+    position: fixed;
+    display: flex !important;
+    z-index: 99;
+    height: 7vh;
+    color: var(--whit);
+    background-color: black;
+    width: 100vw;
+}
+.link
+{
+    position: relative;
+    font-weight: bold;
+    color: white;
+
+}
+.subm
+{
+    position: relative;
+    text-align: center;
+    list-style: none;
+    flex: 1 1 auto;
+}
+.menumenu
+{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    display: flex;
+}
+.blocmenu
+{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.bloclogs
+{
+    position: relative;
+    width: fit-content;
+    height: 100%;
+    
+}
+.logs{
+    position: relative;
+    height: 100%;
+
+}
